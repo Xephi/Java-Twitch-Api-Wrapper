@@ -20,6 +20,12 @@
         <!-- Test Dependencies -->
         <junit.version>4.12</junit.version>
     </properties>
+    <repositories>
+        <repository>
+	         <id>xephi-repo</id>
+	         <url>http://jenkins.xephi.fr/plugin/repository/everything/</url>
+        </repository>
+     </repositories>
 
     <dependencies>
         <!-- data-binding; ObjectMapper, JsonNode and related classes are here -->
